@@ -1,9 +1,8 @@
-<%@ taglib prefix="s" uri="/struts-tags" %>
 <%--
   Created by IntelliJ IDEA.
   User: weiyifan
   Date: 2016/7/4
-  Time: 14:37
+  Time: 20:30
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
@@ -19,35 +18,31 @@
   <div class="row">
     <br /><br />
     <ul class="nav nav-tabs">
-      <li class="active">
-        <a href="#">首页</a>
-      </li>
       <li>
-        <a href="psersonal.jsp">信息</a>
+        <a href="nav.jsp">首页</a>
+      </li>
+      <li class="active">
+        <a href="#">学生借阅信息</a>
       </li>
       <li class="pull-right">
         <a href="#">注销</a>
       </li>
     </ul>
     <br />
-    <form class="glyphicon-search">
-      <input type="text" name="search"  placeholder="请输入书名">
-      <button class="btn" type="submit">查找</button>
-    </form>
     <table class="table">
       <thead>
       <tr>
         <th>
-          ID
+          学生姓名
         </th>
         <th>
           书名
         </th>
         <th>
-          库存
+          日期
         </th>
         <th>
-          状态
+          操作
         </th>
       </tr>
       </thead>
