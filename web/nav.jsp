@@ -31,12 +31,15 @@
     </ul>
     <br />
     <form class="glyphicon-search">
-      <input type="text" />
+      <input type="text" name="search" class="form-control" placeholder="请输入书名">
       <button class="btn" type="submit">查找</button>
     </form>
     <table class="table">
       <thead>
       <tr>
+        <th>
+          ID
+        </th>
         <th>
           书名
         </th>
@@ -45,9 +48,6 @@
         </th>
         <th>
           状态
-        </th>
-        <th>
-          操作
         </th>
       </tr>
       </thead>

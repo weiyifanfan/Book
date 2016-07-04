@@ -33,16 +33,16 @@
       <thead>
       <tr>
         <th>
-          编号
+          ID
         </th>
         <th>
-          产品
+          书名
         </th>
         <th>
-          交付时间
+          日期
         </th>
         <th>
-          状态
+          操作
         </th>
       </tr>
       </thead>
